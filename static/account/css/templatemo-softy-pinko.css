@@ -560,7 +560,7 @@ header
 }
 
 .header-area.header-sticky .nav {
-  margin-top: 29px !important;
+  margin-top: 20px !important;
 }
 
 .header-area.header-sticky .nav li a {
@@ -1616,7 +1616,7 @@ preloader
 
 @media screen and (min-width: 1500px) { 
   .pilars-area {
-      padding: 0px 170px;
+      /* padding: 0px 170px; */
   }
 }
 .pilarts-img {

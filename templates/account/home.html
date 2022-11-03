@@ -4,7 +4,7 @@
 {% block body %}
     <!-- ***** Welcome Area Start ***** -->
     <div class="welcome-area" id="welcome">
-        
+
         <!-- ***** Header Text Start ***** -->
         <div class="header-text">
             <div class="container">
@@ -326,9 +326,9 @@
                 </div>
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
+                      <div class="modal-content" style="background-color: #7f0dff;">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalCenterTitle">Sadaqah Jariyah</h5>
+                          <h5 class="modal-title text-light" id="exampleModalCenterTitle">Sadaqah Jariyah</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
@@ -336,6 +336,31 @@
                         <div class="modal-body d-flex justify-content-center">
                            <img style="width: 200px;" src="{% static 'account/image/qr.png' %}" alt="">
                         </div>
+        
+                           <div  class="QR-link d-flex justify-content-center">
+                            <a href="#" class="main-button m-2">Donate with Link</a>
+                           </div>
+                           <!-- <div class="buttons d-flex justify-content-center">
+                                <ul class="wrapper">
+                                    <li class="icon facebook">
+                                      
+                                      <span><i class="fa fa-paypal"></i></i></span>
+                                    </li>
+                                    <li class="icon twitter">
+                                     
+                                      <span><i class="fa fa-cc-visa"></i></span>
+                                    </li>
+                                    <li class="icon instagram">
+                                      
+                                      <span><i class="fa-brands fa-paypal"></i></i></span>
+                                    </li>
+                                    <li class="icon github">
+                                     
+                                      <span><i class="fa-brands fa-apple-pay"></i></span>
+                                    </li>
+                                
+                                  </ul>
+                            </div> -->
                       </div>
                     </div>
                   </div>
@@ -848,6 +873,11 @@
     <!-- ***** Contact Us End ***** -->
     
 <script>
+
+
+
+
+
     let modalId = $('#image-gallery');
 
 $(document)
